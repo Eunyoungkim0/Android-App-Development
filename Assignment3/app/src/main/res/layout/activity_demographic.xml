@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemographicActivity">
+
+    <TextView
+        android:id="@+id/textDmgInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/demographic_info"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/dmg_education"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDmgInfo" />
+
+    <TextView
+        android:id="@+id/userEducation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/dmg_na"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textEducation"
+        app:layout_constraintStart_toEndOf="@+id/textEducation"
+        app:layout_constraintTop_toTopOf="@+id/textEducation" />
+
+    <Button
+        android:id="@+id/btnEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/btn_select"
+        app:layout_constraintBottom_toBottomOf="@+id/userEducation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/userEducation" />
+
+    <TextView
+        android:id="@+id/textMaritalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/dmg_marital_status"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textEducation"
+        app:layout_constraintTop_toBottomOf="@+id/textEducation" />
+
+    <TextView
+        android:id="@+id/userMaritalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/dmg_na"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textMaritalStatus"
+        app:layout_constraintStart_toEndOf="@+id/textMaritalStatus"
+        app:layout_constraintTop_toTopOf="@+id/textMaritalStatus" />
+
+    <Button
+        android:id="@+id/btnMaritalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select"
+        app:layout_constraintBottom_toBottomOf="@+id/userMaritalStatus"
+        app:layout_constraintEnd_toEndOf="@+id/btnEducation"
+        app:layout_constraintTop_toTopOf="@+id/userMaritalStatus" />
+
+    <TextView
+        android:id="@+id/textLivingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/dmg_living_status"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textMaritalStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textMaritalStatus" />
+
+    <TextView
+        android:id="@+id/userLivingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/dmg_na"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textLivingStatus"
+        app:layout_constraintStart_toEndOf="@+id/textLivingStatus"
+        app:layout_constraintTop_toTopOf="@+id/textLivingStatus" />
+
+    <Button
+        android:id="@+id/radioLivingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select"
+        app:layout_constraintBottom_toBottomOf="@+id/userLivingStatus"
+        app:layout_constraintEnd_toEndOf="@+id/btnMaritalStatus"
+        app:layout_constraintTop_toTopOf="@+id/userLivingStatus" />
+
+    <TextView
+        android:id="@+id/textIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/dmg_income"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textLivingStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textLivingStatus" />
+
+    <TextView
+        android:id="@+id/userIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/dmg_na"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textIncome"
+        app:layout_constraintStart_toEndOf="@+id/textIncome"
+        app:layout_constraintTop_toTopOf="@+id/textIncome" />
+
+    <Button
+        android:id="@+id/btnIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select"
+        app:layout_constraintBottom_toBottomOf="@+id/userIncome"
+        app:layout_constraintEnd_toEndOf="@+id/radioLivingStatus"
+        app:layout_constraintTop_toTopOf="@+id/userIncome" />
+
+    <Button
+        android:id="@+id/btnDemoNext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btn_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

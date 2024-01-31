@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="welcome">Welcome!!!</string>
+    <string name="identification_info">Identification Info</string>
+    <string name="demographic_info">Demographic Info</string>
+    <string name="select_education_level">Select Education Level</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_next">Next</string>
+    <string name="idf_name">Name :</string>
+    <string name="idf_hint_name">Enter Name</string>
+    <string name="idf_email">Email :</string>
+    <string name="idf_hint_email">Enter Email</string>
+    <string name="idf_role">Role :</string>
+    <string name="idf_role_student">Student</string>
+    <string name="idf_role_employee">Employee</string>
+    <string name="idf_role_other">Other</string>
+
+    <string name="dmg_education">Education :</string>
+    <string name="dmg_marital_status">Marital Status :</string>
+    <string name="dmg_living_status">Living Status :</string>
+    <string name="dmg_income">Income :</string>
+    <string name="dmg_na">N/A</string>
+    <string name="btn_select">Select</string>
+
+    <string name="edu_level_exp">What is the highest degree or level of education you have completed?</string>
+    <string name="edu_below_high_school">Below High School</string>
+    <string name="edu_high_school">High School</string>
+    <string name="edu_bachelors_degree">Bachelor\'s Degree</string>
+    <string name="edu_masters_degree">Master\'s Degree</string>
+    <string name="edu_phd_or_higher">Ph.D. or higher</string>
+    <string name="edu_trade_school">Trade School</string>
+    <string name="edu_prefer_not_to_say">Prefer not to say</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+
+    <string name="select_marital_status">Select Marital Status</string>
+    <string name="marital_exp">What is your marital status?</string>
+    <string name="mrt_not_married">Not Married</string>
+    <string name="mrt_married">Married</string>
+    <string name="prefer_not_to_say">Prefer not to say</string>
+
+    <string name="select_living_status">Select Living Status</string>
+    <string name="liv_exp">Which of the following describes your living status?</string>
+    <string name="liv_homeowner">Homeowner</string>
+    <string name="liv_renter">Renter</string>
+    <string name="liv_lessee">Lessee</string>
+    <string name="liv_other">Other</string>
+
+    <string name="household_income">Household Income</string>
+    <string name="profile">Profile</string>
+</resources>
