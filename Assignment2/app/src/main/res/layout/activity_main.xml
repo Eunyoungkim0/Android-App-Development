@@ -21,13 +21,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/choose"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/image1"
+        android:id="@+id/reward_1"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="28dp"
@@ -37,98 +38,88 @@
         app:srcCompat="@drawable/reward_1" />
 
     <ImageView
-        android:id="@+id/image10"
+        android:id="@+id/reward_10"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image1"
-        app:layout_constraintTop_toBottomOf="@+id/image1"
+        app:layout_constraintEnd_toEndOf="@+id/reward_1"
+        app:layout_constraintTop_toBottomOf="@+id/reward_1"
         app:srcCompat="@drawable/reward_10" />
 
     <ImageView
-        android:id="@+id/image100"
+        android:id="@+id/reward_100"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image50"
-        app:layout_constraintTop_toBottomOf="@+id/image50"
+        app:layout_constraintEnd_toEndOf="@+id/reward_50"
+        app:layout_constraintTop_toBottomOf="@+id/reward_50"
         app:srcCompat="@drawable/reward_100" />
 
     <ImageView
-        android:id="@+id/image50"
+        android:id="@+id/reward_50"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image10"
-        app:layout_constraintTop_toBottomOf="@+id/image10"
+        app:layout_constraintEnd_toEndOf="@+id/reward_10"
+        app:layout_constraintTop_toBottomOf="@+id/reward_10"
         app:srcCompat="@drawable/reward_50" />
 
     <ImageView
-        android:id="@+id/image300"
+        android:id="@+id/reward_300"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image100"
-        app:layout_constraintTop_toBottomOf="@+id/image100"
+        app:layout_constraintEnd_toEndOf="@+id/reward_100"
+        app:layout_constraintTop_toBottomOf="@+id/reward_100"
         app:srcCompat="@drawable/reward_300" />
 
     <ImageView
-        android:id="@+id/image1000"
+        android:id="@+id/reward_1000"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image300"
-        app:layout_constraintTop_toBottomOf="@+id/image300"
+        app:layout_constraintEnd_toEndOf="@+id/reward_300"
+        app:layout_constraintTop_toBottomOf="@+id/reward_300"
         app:srcCompat="@drawable/reward_1000" />
 
     <ImageView
-        android:id="@+id/image10000"
+        android:id="@+id/reward_10000"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image1000"
-        app:layout_constraintTop_toBottomOf="@+id/image1000"
+        app:layout_constraintEnd_toEndOf="@+id/reward_1000"
+        app:layout_constraintTop_toBottomOf="@+id/reward_1000"
         app:srcCompat="@drawable/reward_10000" />
 
     <ImageView
-        android:id="@+id/image50000"
+        android:id="@+id/reward_50000"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image10000"
-        app:layout_constraintTop_toBottomOf="@+id/image10000"
+        app:layout_constraintEnd_toEndOf="@+id/reward_10000"
+        app:layout_constraintTop_toBottomOf="@+id/reward_10000"
         app:srcCompat="@drawable/reward_50000" />
 
     <ImageView
-        android:id="@+id/image100000"
+        android:id="@+id/reward_100000"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image50000"
-        app:layout_constraintTop_toBottomOf="@+id/image50000"
+        app:layout_constraintEnd_toEndOf="@+id/reward_50000"
+        app:layout_constraintTop_toBottomOf="@+id/reward_50000"
         app:srcCompat="@drawable/reward_100000" />
 
     <ImageView
-        android:id="@+id/image500000"
+        android:id="@+id/reward_500000"
         android:layout_width="100dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/image100000"
-        app:layout_constraintTop_toBottomOf="@+id/image100000"
+        app:layout_constraintEnd_toEndOf="@+id/reward_100000"
+        app:layout_constraintTop_toBottomOf="@+id/reward_100000"
         app:srcCompat="@drawable/reward_500000" />
 
-    <Button
-        android:id="@+id/buttonReset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="@string/reset"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image500000" />
-
     <ImageView
-        android:id="@+id/suitcase_1"
+        android:id="@+id/suitcase_position_1"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
@@ -138,83 +129,114 @@
         app:srcCompat="@drawable/suitcase_position_1" />
 
     <ImageView
-        android:id="@+id/suitcase_2"
+        android:id="@+id/suitcase_position_2"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintStart_toEndOf="@+id/suitcase_1"
-        app:layout_constraintTop_toTopOf="@+id/suitcase_1"
+        app:layout_constraintStart_toEndOf="@+id/suitcase_position_1"
+        app:layout_constraintTop_toTopOf="@+id/suitcase_position_1"
         app:srcCompat="@drawable/suitcase_position_2" />
 
     <ImageView
-        android:id="@+id/suitcase_3"
+        android:id="@+id/suitcase_position_3"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        app:layout_constraintStart_toStartOf="@+id/suitcase_1"
-        app:layout_constraintTop_toBottomOf="@+id/suitcase_1"
+        app:layout_constraintStart_toStartOf="@+id/suitcase_position_1"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase_position_1"
         app:srcCompat="@drawable/suitcase_position_3" />
 
     <ImageView
-        android:id="@+id/suitcase_4"
+        android:id="@+id/suitcase_position_4"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/suitcase_3"
-        app:layout_constraintStart_toEndOf="@+id/suitcase_3"
-        app:layout_constraintTop_toTopOf="@+id/suitcase_3"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase_position_3"
+        app:layout_constraintStart_toEndOf="@+id/suitcase_position_3"
+        app:layout_constraintTop_toTopOf="@+id/suitcase_position_3"
         app:srcCompat="@drawable/suitcase_position_4" />
 
     <ImageView
-        android:id="@+id/suitcase_5"
+        android:id="@+id/suitcase_position_5"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        app:layout_constraintStart_toStartOf="@+id/suitcase_3"
-        app:layout_constraintTop_toBottomOf="@+id/suitcase_3"
+        app:layout_constraintStart_toStartOf="@+id/suitcase_position_3"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase_position_3"
         app:srcCompat="@drawable/suitcase_position_5" />
 
     <ImageView
-        android:id="@+id/suitcase_6"
+        android:id="@+id/suitcase_position_6"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/suitcase_5"
-        app:layout_constraintStart_toEndOf="@+id/suitcase_5"
-        app:layout_constraintTop_toTopOf="@+id/suitcase_5"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase_position_5"
+        app:layout_constraintStart_toEndOf="@+id/suitcase_position_5"
+        app:layout_constraintTop_toTopOf="@+id/suitcase_position_5"
         app:srcCompat="@drawable/suitcase_position_6" />
 
     <ImageView
-        android:id="@+id/suitcase_7"
+        android:id="@+id/suitcase_position_7"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        app:layout_constraintStart_toStartOf="@+id/suitcase_5"
-        app:layout_constraintTop_toBottomOf="@+id/suitcase_5"
+        app:layout_constraintStart_toStartOf="@+id/suitcase_position_5"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase_position_5"
         app:srcCompat="@drawable/suitcase_position_7" />
 
     <ImageView
-        android:id="@+id/suitcase_8"
+        android:id="@+id/suitcase_position_8"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/suitcase_7"
-        app:layout_constraintStart_toEndOf="@+id/suitcase_7"
-        app:layout_constraintTop_toTopOf="@+id/suitcase_7"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase_position_7"
+        app:layout_constraintStart_toEndOf="@+id/suitcase_position_7"
+        app:layout_constraintTop_toTopOf="@+id/suitcase_position_7"
         app:srcCompat="@drawable/suitcase_position_8" />
 
     <ImageView
-        android:id="@+id/suitcase_9"
+        android:id="@+id/suitcase_position_9"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        app:layout_constraintStart_toStartOf="@+id/suitcase_7"
-        app:layout_constraintTop_toBottomOf="@+id/suitcase_7"
+        app:layout_constraintStart_toStartOf="@+id/suitcase_position_7"
+        app:layout_constraintTop_toBottomOf="@+id/suitcase_position_7"
         app:srcCompat="@drawable/suitcase_position_9" />
 
     <ImageView
-        android:id="@+id/suitcase_10"
+        android:id="@+id/suitcase_position_10"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/suitcase_9"
-        app:layout_constraintStart_toEndOf="@+id/suitcase_9"
-        app:layout_constraintTop_toTopOf="@+id/suitcase_9"
+        app:layout_constraintBottom_toBottomOf="@+id/suitcase_position_9"
+        app:layout_constraintStart_toEndOf="@+id/suitcase_position_9"
+        app:layout_constraintTop_toTopOf="@+id/suitcase_position_9"
         app:srcCompat="@drawable/suitcase_position_10" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDeal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Deal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNoDeal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="No Deal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
