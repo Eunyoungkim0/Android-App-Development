@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200903344606",
+    "project_id": "assignment09-46d71",
+    "storage_bucket": "assignment09-46d71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200903344606:android:6733e6194a7426e03e9d4f",
+        "android_client_info": {
+          "package_name": "edu.uncc.assignment09"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZUJsr3pd0TElKzvWKPJm5iNV5W6mFUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
