@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragments.CreateMessageFragment">
+
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Create Message"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTo"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#46673AB7"
+        android:paddingLeft="5dp"
+        android:text="To"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewMessage"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMessage" />
+
+    <TextView
+        android:id="@+id/textViewReceiver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="N/A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSelectUser"
+        app:layout_constraintStart_toStartOf="@+id/editTextTitle"
+        app:layout_constraintTop_toTopOf="@+id/textViewTo" />
+
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#46673AB7"
+        android:paddingLeft="5dp"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewTo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTo" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Enter title here"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColorHint="#4DFFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTitle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewTitle2"
+        app:layout_constraintTop_toTopOf="@+id/textViewTitle2" />
+
+    <Button
+        android:id="@+id/buttonSelectUser"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Select"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewReceiver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewReceiver" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#46673AB7"
+        android:paddingLeft="5dp"
+        android:text="Message"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewTitle2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle2" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter message here"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColorHint="#4DFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+
+    <TextView
+        android:id="@+id/textViewCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CANCEL"
+        android:textColor="#ff6750a4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

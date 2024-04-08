@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747278599236",
+    "project_id": "emessageme-b0602",
+    "storage_bucket": "emessageme-b0602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747278599236:android:9108457b77ef2b2acba811",
+        "android_client_info": {
+          "package_name": "edu.uncc.emessageme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB06SAhbh9gQYxsV40kgjMS_jyaLeuzc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EMessageMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_label">Submit</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="name_label">Full Name</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_label">Login</string>
+    <string name="logout_label">Logout</string>
+    <string name="enter_message_label">Enter Message</string>
+    <string name="create_message_label">Create Message</string>
+    <string name="messages_label">Messages</string>
+    <string name="create_account_label">Create New Account</string>
+</resources>
